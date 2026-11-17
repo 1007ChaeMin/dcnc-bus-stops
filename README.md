@@ -77,7 +77,7 @@ OpenStreetMap이 파일로 연 페이지의 지도 요청을 막기 때문이에
 | 기상 관측지점 정보 | 기상청 (기상자료개방포털) | 공공누리 1유형 | <https://data.kma.go.kr/tmeta/stn/selectStnList.do?pgmNo=123> |
 | 대구광역시 버스 노선 공간정보 | 대구광역시 | 제한 없음 | <https://www.data.go.kr/data/15070487/fileData.do> |
 | 대구광역시 시내버스 노선정보 | 대구광역시 | 제한 없음 | <https://www.data.go.kr/data/15156114/fileData.do> |
-| 2025년 지역 온실가스 인벤토리 | 온실가스종합정보센터 | 출처 표시 | <https://www.gir.go.kr/home/board/read.do?pagerOffset=0&maxPageItems=10&maxIndexPages=10&searchKey=&searchValue=&menuId=36&boardId=89&boardMasterId=2&boardCategoryId=> |
+| 2025년 지역 온실가스 인벤토리 | 온실가스종합정보센터 | 출처 표시 | <https://www.gir.go.kr/home/board/read.do?menuId=36&boardId=89&boardMasterId=2> |
 
 ## 한계
 
