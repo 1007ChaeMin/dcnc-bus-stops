@@ -685,6 +685,8 @@ svg.leaflet-image-layer.leaflet-interactive path {
   .btn{font:inherit;font-size:12px;border:1px solid #c9c8c3;background:#fff;border-radius:6px;padding:4px 8px;cursor:pointer;white-space:nowrap}
   .rinfo{margin-top:6px;padding:6px 8px;background:#eef1f6;border-radius:6px;font-size:12px;line-height:1.5}
   .ln{display:inline-block;width:16px;height:3px;background:#1f2a44;vertical-align:3px;margin:0 3px 0 6px}
+  .lg{margin:3px 0;line-height:1.6} .lg > .sw:first-child, .lg > .ln, .lg > .big{margin-left:0;margin-right:6px}
+  .big{display:inline-block;width:12px;height:12px;border-radius:50%;background:#67000d;border:2px solid #111;box-sizing:border-box;vertical-align:-2px}
   .pop .rt{font:inherit;font-size:11px;border:1px solid #c9c8c3;background:#fff;border-radius:4px;padding:0 5px;margin:3px 3px 0 0;cursor:pointer}
   .src{position:absolute;z-index:1000;bottom:6px;left:12px;font-size:11px;color:#52514e;background:rgba(255,255,255,.85);padding:2px 6px;border-radius:4px}
   .stn{background:#111;color:#fff;font-size:11px;padding:1px 5px;border-radius:3px;white-space:nowrap}
@@ -706,9 +708,13 @@ svg.leaflet-image-layer.leaflet-interactive path {
   <datalist id="rnames"></datalist>
   <div class="rinfo" id="rinfo" hidden></div>
   <div class="count" id="count"></div>
-  <div class="legend">위험 <span class="sw" style="background:#fc9272"></span>낮음<span class="sw" style="background:#de2d26"></span>
-    <span class="sw" style="background:#67000d"></span>높음 ·<span class="sw" style="background:#2a78d6"></span>그늘막·냉방쉘터 30m 안<br>
-    큰 원 = 최우선 정류장 ·<span class="ln"></span>고른 버스 노선 · <span class="stn">■ 관측소</span> 숫자 = 2025 여름 33℃ 이상 시간</div>
+  <div class="legend">
+    <div class="lg">위험 <span class="sw" style="background:#fc9272"></span>낮음<span class="sw" style="background:#de2d26"></span><span class="sw" style="background:#67000d"></span>높음</div>
+    <div class="lg"><span class="sw" style="background:#2a78d6"></span>그늘막·냉방쉘터가 30m 안에 있는 정류장</div>
+    <div class="lg"><span class="big"></span>최우선 정류장</div>
+    <div class="lg"><span class="ln"></span>고른 버스 노선</div>
+    <div class="lg"><span class="stn">■ 관측소</span> 숫자는 2025년 여름 33℃ 이상 시간</div>
+  </div>
 </div>
 <div class="src">자료: 공공데이터포털·기상청 등 공공데이터 (보고서 3쪽) · 행정동 경계 admdongkor(CC BY 4.0)</div>
 <script>/* @preserve
@@ -750,7 +756,7 @@ const markers = STOPS.map(p => {
 });
 for (const s of STATIONS) {
   L.marker([s.la, s.lo], {interactive: false, icon: L.divIcon({className: '', iconSize: null,
-    html: `<div class="stn">■ ${esc(s.n)} ${s.h}h</div>`})}).addTo(map);
+    html: `<div class="stn">■ ${esc(s.n)} ${s.h}시간</div>`})}).addTo(map);
 }
 const $ = id => document.getElementById(id);
 map.createPane('routes'); map.getPane('routes').style.zIndex = 390;  // 정류장 원(400)보다 아래
