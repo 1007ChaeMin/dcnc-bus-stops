@@ -58,25 +58,26 @@ OpenStreetMap이 파일로 연 페이지의 지도 요청을 막기 때문이에
 | 외곽 아침 승차형 | 180곳 | 0.1% |
 | 농촌 저이용형 | 793곳 | 0.3% |
 
-## 사용한 공공데이터 (15종)
+## 사용한 공공데이터 (16종)
 
-| 데이터 | 제공기관 | 주소 |
-|---|---|---|
-| 대구광역시 시내버스 정류소 위치정보 | 대구광역시 | <https://www.data.go.kr/data/15050946/fileData.do> |
-| 대구광역시 정류소별 시간대별 승하차인원 | 대구광역시 | <https://www.data.go.kr/data/15050942/fileData.do> |
-| 대구광역시 시내버스 정류소별 노선별 평균배차간격 | 대구광역시 | <https://www.data.go.kr/data/15060936/fileData.do> |
-| 대구광역시 가로수정보 | 대구광역시 | <https://www.data.go.kr/data/15109655/fileData.do> |
-| 대구광역시 시내버스 정류소 냉난방정보 | 대구광역시 | <https://www.data.go.kr/data/15131079/fileData.do> |
-| 전국그늘막쉼터표준데이터 | 전국 지자체 (공공데이터포털 표준데이터) | <https://www.data.go.kr/data/15129447/standard.do> |
-| 전국무더위쉼터표준데이터 | 전국 지자체 (공공데이터포털 표준데이터) | <https://www.data.go.kr/data/15013199/standard.do> |
-| 행정동 경계 | vuski/admdongkor (원천: 통계청 SGIS) | <https://github.com/vuski/admdongkor> |
-| 행정동별 연령별 인구현황 | 행정안전부 주민등록 인구통계 | <https://jumin.mois.go.kr/ageStatMonth.do> |
-| 국토교통부 전국 버스정류장 위치정보 | 국토교통부 | <https://www.data.go.kr/data/15067528/fileData.do> |
-| 방재기상관측(AWS) 시간자료 | 기상청 (기상자료개방포털) | <https://data.kma.go.kr/data/grnd/selectAwsRltmList.do?pgmNo=56> |
-| 종관기상관측(ASOS) 시간자료 | 기상청 (기상자료개방포털) | <https://data.kma.go.kr/data/grnd/selectAsosRltmList.do?pgmNo=36> |
-| 기상 관측지점 정보 | 기상청 (기상자료개방포털) | <https://data.kma.go.kr/tmeta/stn/selectStnList.do?pgmNo=123> |
-| 대구광역시 버스 노선 공간정보 | 대구광역시 | <https://www.data.go.kr/data/15070487/fileData.do> |
-| 대구광역시 시내버스 노선정보 | 대구광역시 | <https://www.data.go.kr/data/15156114/fileData.do> |
+| 데이터 | 제공기관 | 이용조건 | 주소 |
+|---|---|---|---|
+| 대구광역시 시내버스 정류소 위치정보 | 대구광역시 | 제한 없음 | <https://www.data.go.kr/data/15050946/fileData.do> |
+| 대구광역시 정류소별 시간대별 승하차인원 | 대구광역시 | 제한 없음 | <https://www.data.go.kr/data/15050942/fileData.do> |
+| 대구광역시 시내버스 정류소별 노선별 평균배차간격 | 대구광역시 | 제한 없음 | <https://www.data.go.kr/data/15060936/fileData.do> |
+| 대구광역시 가로수정보 | 대구광역시 | 제한 없음 | <https://www.data.go.kr/data/15109655/fileData.do> |
+| 대구광역시 시내버스 정류소 냉난방정보 | 대구광역시 | 제한 없음 | <https://www.data.go.kr/data/15131079/fileData.do> |
+| 전국그늘막쉼터표준데이터 | 전국 지자체 (공공데이터포털 표준데이터) | 제한 표시 없음 | <https://www.data.go.kr/data/15129447/standard.do> |
+| 전국무더위쉼터표준데이터 | 전국 지자체 (공공데이터포털 표준데이터) | 제한 표시 없음 | <https://www.data.go.kr/data/15013199/standard.do> |
+| 행정동 경계 | vuski/admdongkor (원천: 통계청 SGIS) | CC BY 4.0 | <https://github.com/vuski/admdongkor> |
+| 행정동별 연령별 인구현황 | 행정안전부 주민등록 인구통계 | 출처 표시 | <https://jumin.mois.go.kr/ageStatMonth.do> |
+| 국토교통부 전국 버스정류장 위치정보 | 국토교통부 | 제한 없음 | <https://www.data.go.kr/data/15067528/fileData.do> |
+| 방재기상관측(AWS) 시간자료 | 기상청 (기상자료개방포털) | 공공누리 1유형 | <https://data.kma.go.kr/data/grnd/selectAwsRltmList.do?pgmNo=56> |
+| 종관기상관측(ASOS) 시간자료 | 기상청 (기상자료개방포털) | 공공누리 1유형 | <https://data.kma.go.kr/data/grnd/selectAsosRltmList.do?pgmNo=36> |
+| 기상 관측지점 정보 | 기상청 (기상자료개방포털) | 공공누리 1유형 | <https://data.kma.go.kr/tmeta/stn/selectStnList.do?pgmNo=123> |
+| 대구광역시 버스 노선 공간정보 | 대구광역시 | 제한 없음 | <https://www.data.go.kr/data/15070487/fileData.do> |
+| 대구광역시 시내버스 노선정보 | 대구광역시 | 제한 없음 | <https://www.data.go.kr/data/15156114/fileData.do> |
+| 2025년 지역 온실가스 인벤토리 | 온실가스종합정보센터 | 출처 표시 | <https://www.gir.go.kr/home/board/read.do?pagerOffset=0&maxPageItems=10&maxIndexPages=10&searchKey=&searchValue=&menuId=36&boardId=89&boardMasterId=2&boardCategoryId=> |
 
 ## 한계
 
